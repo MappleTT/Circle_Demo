@@ -9,6 +9,7 @@ public class AlgoFrame extends JFrame {
 
     public AlgoFrame(String title,int canvasWidth,int canvasHeight){
 
+
         super(title);
         this.canvasWidth=canvasWidth;
         this.canvasHeight=canvasHeight;

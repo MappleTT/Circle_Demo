@@ -12,6 +12,7 @@ public class AlgoVisHelper {
         g2d.setStroke(new BasicStroke(strokeWidth,BasicStroke.CAP_ROUND,BasicStroke.JOIN_ROUND));
     }
 
+
     public static void setColor(Graphics2D g2d){
         int d=(int)(Math.random()*256)+100;
         g2d.setColor(new Color(255,d-50,0));

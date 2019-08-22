@@ -12,6 +12,7 @@ public class AlgoVisualizer {
     private AlgoFrame frame;
     private boolean isAnimated=true;
 
+
     public AlgoVisualizer(int sceneWidth,int sceneHeight,int N){
         circles =new Circle[N];
         int R=50;
